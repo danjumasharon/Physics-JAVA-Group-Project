@@ -12,15 +12,21 @@ public class Energy extends Formula{
     {
         return mass * getGravity() * height;
     }
-}
+
+  
        //
     int totalEnergy(int pEnergy, int kEnergy) {
         return pEnergy + kEnergy;
     }
-     //
-    float potentialEnergy(float mass, float height) {
-        return mass * getGravity() * height;
+    // Bassey Emmanuel BHU/19/04/02/0005
+    float potentialEnergy(float mass, float height){
+        float v = mass * getGravity() * height;
+        final float v1 = v;
+        return v1;
     }
-
+}
+    
     private float getGravity() {
     }
+
+
