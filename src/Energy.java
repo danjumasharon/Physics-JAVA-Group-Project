@@ -7,14 +7,14 @@ public class Energy extends Formula{
     }
 
 
-    // Sharon
+    // Sharon Danjuma BHU/22/04/05/0101
     float gravitationalEnergy(float mass, float height)
     {
         return mass * getGravity() * height;
     }
 
   
-       //
+     //
     int totalEnergy(int pEnergy, int kEnergy) {
         return pEnergy + kEnergy;
     }
