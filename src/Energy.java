@@ -14,7 +14,7 @@ public class Energy extends Formula{
     }
 
   
-     // David okoro anya BHU/22/04/05/0130
+     // David Okoro Anya BHU/22/04/05/0130
     int totalEnergy(int pEnergy, int kEnergy) {
         return pEnergy + kEnergy;
     }
