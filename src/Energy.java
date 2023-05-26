@@ -14,10 +14,10 @@ public class Energy extends Formula{
     }
 
   
-     // David Okoro Anya BHU/22/04/05/0130
-    int totalEnergy(int pEnergy,int kEnergy) 
+     //David Okoro Anya BHU/22/04/05/0130
+   int totalEnergy(int pEnergy,int kEnergy) 
     {
-        return pEnergy + kEnergy;
+       return pEnergy + kEnergy;
     }
     // Bassey Emmanuel BHU/19/04/02/0005
     float potentialEnergy(float mass, float height){
